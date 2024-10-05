@@ -29,23 +29,9 @@ student4 = Check("Tony","Adams",25)
 student5 = Check("Franck","Ribery",99)
 
 
-
-student1.display_info()
-student1.check_exam()
-
-student2.display_info()
-student2.check_exam()
-
-student3.display_info()
-student3.check_exam()
-
-student4.display_info()
-student4.check_exam()
-
-student5.display_info()
-student5.check_exam()
-
-
+for x in (student1,student2,student3,student4,student5):
+    x.display_info()
+    x.check_exam()
 
 
 
